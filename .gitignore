@@ -1,0 +1,25 @@
+# ===== Keil MDK 编译产物 =====
+MDK-ARM/EnvMonitor/
+DebugConfig/
+*.o
+*.d
+*.crf
+*.lst
+*.map
+*.axf
+*.htm
+*.lnp
+*.dep
+*.iex
+*.tra
+*.uvguix.*
+*.scvd
+*.sct
+*.dbgconf
+
+# ===== 编辑器/系统 =====
+Thumbs.db
+Desktop.ini
+*.swp
+.idea/
+.vscode/
