@@ -84,32 +84,6 @@ MDK-ARM/            Keil MDK 工程 EnvMonitor.uvprojx
 
 ---
 
-## 📤 上传到你的 GitHub
-
-本仓库是本地工程，尚未推送。上传前先在本机终端认证（任选其一）：
-
-```bash
-# 方式一：交互式登录（推荐，token 不进聊天记录）
-gh auth login
-
-# 方式二：浏览器授权（需已装 Git Credential Manager，Edge 已登录 GitHub 时可用）
-# git push 时按提示在浏览器点授权
-```
-
-然后创建远程仓库并推送：
-
-```bash
-cd STM32F103_AirQualityMonitor
-git init
-git add -A
-git commit -m "STM32F103 indoor air quality monitor (SCD30+BH1750+MAX9814+OLED)"
-git branch -M main
-git remote add origin https://github.com/HUILI258/<你的仓库名>.git
-git push -u origin main
-```
-
----
-
 ## 📜 许可证与致谢
 
 - 新写的驱动（`SCD30/`、`Noise/`、`App/aqi.*`）与整合代码：MIT。
